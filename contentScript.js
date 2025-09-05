@@ -18,6 +18,5 @@
     if (msg && msg.type === "TOGGLE_GH_DETAILS") {
       sendResponse(toggleAll());
     }
-    // No async response needed.
   });
 })();
