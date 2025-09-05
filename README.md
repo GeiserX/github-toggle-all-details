@@ -1,4 +1,4 @@
-<img src="https://github.com/GeiserX/github-toggle-all-details/icon.png" width="100"/>
+<img src="https://github.com/GeiserX/github-toggle-all-details/blob/main/icon.png" width="100"/> 
 
 # github-toggle-all-details
 
