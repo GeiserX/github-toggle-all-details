@@ -3,7 +3,7 @@
   "name": "Toggle GitHub Details in Comments",
   "version": "1.0.0",
   "description": "Toggle all <details> within GitHub PR/issue comments by clicking the toolbar button.",
-  "permissions": ["tabs"],
+  "permissions": [],
   "background": {
     "service_worker": "background.js"
   },
