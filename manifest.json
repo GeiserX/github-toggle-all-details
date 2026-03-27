@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Toggle GitHub Details in Comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toggle all <details> within GitHub PR/issue comments by clicking the toolbar button.",
   "permissions": [],
   "background": {
