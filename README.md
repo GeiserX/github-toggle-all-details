@@ -6,7 +6,7 @@
   <a href="https://github.com/GeiserX/github-toggle-all-details/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GeiserX/github-toggle-all-details?color=58A6FF&style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/manifest-v3-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Manifest V3">
   <img src="https://img.shields.io/badge/chrome-supported-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome">
-  <img src="https://img.shields.io/badge/firefox-supported-58A6FF?style=flat-square&logo=firefox&logoColor=white" alt="Firefox">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/toggle-github-details/"><img src="https://img.shields.io/amo/v/toggle-github-details?style=flat-square&logo=firefox&logoColor=white&label=firefox&color=58A6FF" alt="Firefox Add-on"></a>
   <img src="https://img.shields.io/badge/dependencies-0-58A6FF?style=flat-square" alt="Zero dependencies">
   <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/github/stars/GeiserX/github-toggle-all-details?style=flat-square&color=58A6FF" alt="Stars"></a>
 </p>
@@ -36,7 +36,12 @@ Built for teams that use CI tools like **Atlantis**, **GitHub Actions**, or **Te
 4. Click **Load unpacked** and select the repository folder.
 5. The extension icon appears in the toolbar. Pin it for quick access.
 
-### Firefox (manual)
+### Firefox
+
+Install from **[Firefox Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/toggle-github-details/)**.
+
+<details>
+<summary>Manual installation</summary>
 
 1. Clone or download this repository.
 2. Open `about:debugging#/runtime/this-firefox` in Firefox.
@@ -44,7 +49,8 @@ Built for teams that use CI tools like **Atlantis**, **GitHub Actions**, or **Te
 4. Select the `manifest.json` file from the repository folder.
 5. The extension icon appears in the toolbar.
 
-> **Note:** Temporary add-ons in Firefox are removed when the browser is closed. For persistent installation, the extension must be signed through [addons.mozilla.org](https://addons.mozilla.org).
+> **Note:** Temporary add-ons in Firefox are removed when the browser is closed.
+</details>
 
 ## Usage
 
@@ -73,7 +79,7 @@ The content script runs at `document_idle` and communicates with the background 
 | Chrome | Manifest V3 | Load unpacked |
 | Edge | Manifest V3 (Chromium) | Load unpacked |
 | Brave | Manifest V3 (Chromium) | Load unpacked |
-| Firefox | Manifest V3 | Temporary add-on |
+| Firefox | Manifest V3 | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/toggle-github-details/) |
 
 Any Chromium-based browser that supports Manifest V3 should work without modification.
 
