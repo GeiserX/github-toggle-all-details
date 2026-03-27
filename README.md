@@ -11,6 +11,10 @@
   <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/github/stars/GeiserX/github-toggle-all-details?style=flat-square&color=58A6FF" alt="Stars"></a>
 </p>
 
+<p align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/toggle-github-details/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Add-on for Firefox" height="60"></a>
+</p>
+
 ---
 
 A lightweight browser extension for **Chrome** and **Firefox** that adds a one-click toolbar button to expand or collapse every `<details>` element inside GitHub pull request and issue comments.
