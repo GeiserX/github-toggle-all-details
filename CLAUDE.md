@@ -22,7 +22,7 @@ No build process needed. Load the extension directly:
 
 ## Key Rules
 - Only targets `<details>` elements inside `.js-comment-body` containers (leaves GitHub's own UI untouched)
-- Must support both github.com and GitHub Enterprise (`*.github.com`)
+- Matches github.com and its `*.github.com` subdomains; GitHub Enterprise Server hosts and `*.ghe.com` are not matched
 - Zero external dependencies; keep it pure vanilla JS
 - Published on Firefox Add-ons (AMO) at `toggle-github-details`
 
